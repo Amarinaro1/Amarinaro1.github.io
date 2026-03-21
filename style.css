@@ -1,0 +1,8 @@
+body { font-family: Helvetica, Arial, sans-serif; margin: 0; display: flex; }
+.sidebar { position: fixed; width: 200px; height: 100vh; padding: 40px; border-right: 1px solid #eee; }
+.sidebar h1 { font-size: 18px; letter-spacing: 2px; margin-bottom: 50px; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li { margin-bottom: 15px; }
+.sidebar a { text-decoration: none; color: #333; font-size: 14px; }
+.content { margin-left: 300px; padding: 40px; }
+.content img { display: block; max-width: 800px; margin-bottom: 50px; }
