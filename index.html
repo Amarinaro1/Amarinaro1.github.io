@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Name | Photography</title>
+    <title>Fabio Pasti | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,12 +11,20 @@
             <li><a href="index.html">Portfolio</a></li>
             <li><a href="#">Books</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
     <main class="content">
-        <img src="photo1.jpeg" alt="Description of photo">
-        <img src="photo2.jpeg" alt="Description of photo">
+        <div class="slider">
+            <img src="photo1.jpg" class="slide active">
+            <img src="photo2.jpg" class="slide">
+            <img src="photo3.png" class="slide">
+            
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
